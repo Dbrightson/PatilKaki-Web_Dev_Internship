@@ -1,0 +1,21 @@
+/* HeroSection.css */
+.hero-section {
+  text-align: center;
+  padding: 150px 20px;
+  background: linear-gradient(135deg, #8e44ad, #c0392b);
+  color: #fff;
+  width: 100%;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}

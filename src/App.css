@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.App {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1.5s ease-in-out;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1.5s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

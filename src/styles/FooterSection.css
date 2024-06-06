@@ -1,0 +1,13 @@
+/* FooterSection.css */
+.footer-section {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #9b59b6, #34495e);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 1rem;
+}

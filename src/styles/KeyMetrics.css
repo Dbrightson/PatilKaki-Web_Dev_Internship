@@ -1,0 +1,31 @@
+.key-metrics-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #e74c3c, #f39c12);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.key-metrics-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.key-metrics-text {
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+.key-metrics-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
